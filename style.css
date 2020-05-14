@@ -1,0 +1,64 @@
+* {
+    font-family: Italianno, Arial;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #e5832f;
+}
+body {
+    width: 100%;
+    background-color: #e5832f;
+}
+.wrapper {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    height: 100%;
+    color: black;
+}
+.gora {
+    background-color: #3d1771;
+}
+.gora img {
+    width: 180px;
+    display: block;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin: auto;
+}
+.nav {
+    background-color: #3d1771;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    margin: auto;
+    display: block;
+}
+ol li {
+    width: 150px;
+    margin: auto;
+    display: block;
+}
+ul li {
+    width: 150px;
+    display: block;
+}
+ul li a {
+    text-decoration: none;
+    display: block;
+}
+ol > li > ul {
+    display: none;
+}
+ol > li:hover > ul {
+    display: block;
+    position: absolute;
+    background-color: #3d1771;
+}
+ol a {
+    display: block;
+    border: 1px solid black;
+}
+ul a {
+    border-top: none;
+}
